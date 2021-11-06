@@ -27,28 +27,10 @@
             />
           </div>
         </div>
-        <div
-          class="
-            w-full
-            grid grid-cols-5
-            gap-2
-            overflow-y-auto overflow-x-hidden
-            h-2/3
-            p-2
-          "
-        >
-          <VideoCard />
-          <VideoCard />
-          <VideoCard />
-          <VideoCard />
-          <VideoCard />
-          <VideoCard />
-          <VideoCard />
-          <VideoCard />
-          <VideoCard />
-          <VideoCard />
-          <VideoCard />
-          <VideoCard />
+        <div class="w-full overflow-y-auto overflow-x-hidden h-2/3 p-4">
+          <PlaylistTile />
+          <PlaylistTile />
+          <PlaylistTile />
         </div>
       </div>
     </div>
